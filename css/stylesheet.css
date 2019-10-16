@@ -1,0 +1,113 @@
+#headerpanel
+{
+	background-size:cover;
+	border-color: #1c5881;
+	border-style: solid;
+	border-width: 2px 2px 0 2px;
+	display: block;
+	background-image;
+}
+
+body
+{
+	font-family: Arial;
+}
+
+h1
+{
+	font-family: Arial;
+	font-size: 1,5em;
+}
+
+h2
+{
+	font-family: Arial;
+	font-size: 1,5em;
+}
+
+
+nav
+{
+	background-color: #F0F;
+	float: left;
+	width: 100%
+}
+
+
+#logo
+{
+	width: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+
+#maincontent
+{
+	width: 75%;
+	background-color: #F0F;
+	padding-left: 1%;
+	padding-right: 1%;
+	float: left;
+}
+
+#bannercatalogus
+{
+	float:left;
+	clear:both;
+	width: 100%;
+}
+
+.fotootjes
+{
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+#maincontent
+{
+	background-color: #FF8;
+	float: left;
+	width: 65%;
+}
+
+#secondarycontent
+{
+	background-color: #F0F;
+	float: right;
+	width: 15%;
+}
+
+#contactcontent
+{
+	clear: both;
+	float: left;
+	width: 30%;
+}
+
+footer
+{
+	background-color: red;
+	clear: both;
+}
