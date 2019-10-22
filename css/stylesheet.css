@@ -1,10 +1,14 @@
 .navigatiebanner
 {
   overflow: hidden;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#headerbanner
+{
+	width: 100%;
 }
 
 #logo
@@ -29,14 +33,6 @@ h2
 {
 	font-family: Arial;
 	font-size: 1,5em;
-}
-
-
-nav
-{
-	background-color: #F0F;
-	float: left;
-	width: 100%
 }
 
 ul {
@@ -95,8 +91,9 @@ li a:hover {
 #secondarycontent
 {
 	background-color: #F0F;
+	clear: both;
 	float: right;
-	width: 15%;
+	width: 100%;
 }
 
 #contactcontent
