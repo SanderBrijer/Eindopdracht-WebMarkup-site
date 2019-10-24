@@ -6,6 +6,7 @@
   width: 100%;
 }
 
+
 #headerbanner
 {
 	width: 100%;
@@ -35,7 +36,8 @@ h2
 	font-size: 1,5em;
 }
 
-ul {
+ul 
+{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,7 +57,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #111;
+  background-color: #F0F;
 }
 
 #maincontent
@@ -93,7 +95,26 @@ li a:hover {
 	background-color: #F0F;
 	clear: both;
 	float: right;
-	width: 100%;
+	width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#sportcontent
+{
+	background-color: gray;
+	clear: both;
+	float: right;
+	width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+#turnfoto
+{
+	width: 90px;
+	clear: both;
+	float: left;	
 }
 
 #contactcontent
