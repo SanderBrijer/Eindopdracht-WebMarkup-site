@@ -1,7 +1,12 @@
-#logo
+/* CSS voor index.html*/
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@font-face 
 {
-	width: 30px;
-	float: left;
+font-family: "fonts/primasans";
+src: url("fonts/primasans.eot");
+src: url("fonts/primasans.woff") format("woff"),
+url("fonts/primasans.otf") format("opentype"),
+url("fonts/primasans.svg#primasans") format("svg");
 }
 
 .topnav
@@ -19,7 +24,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #000;
 }
 
 ul.topnav li {float: left;}
@@ -32,7 +37,7 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: #333;}
 
 ul.topnav li a.active {background-color: #4CAF50;}
 
@@ -55,7 +60,16 @@ ul.topnav li.right {float: right;}
 
 
 
+#logo
+{
+	width: 30px;
+	float: left;
+}
 
+.tekstnav
+{
+	font-family: "primasans";
+}
 
 #headerbanner
 {
@@ -67,6 +81,11 @@ ul.topnav li.right {float: right;}
 	width: 30px;
 	float: left;
 	
+}
+
+#headerlogotekst
+{
+	font-family: 'Staatliches', cursive;
 }
 
 body
@@ -142,6 +161,17 @@ h2
 	clear: both;
 	float: left;	
 }
+
+#referalcontent
+{
+	background-color: blue;
+	clear: both;
+	float: right;
+	width: 94%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
 
 #contactcontent
 {
