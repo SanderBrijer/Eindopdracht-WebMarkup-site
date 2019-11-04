@@ -50,7 +50,7 @@ ul.topnav li a.active {background-color: #707070;}
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 480px)
 {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
@@ -148,6 +148,9 @@ p
 {
 	clear: both;
 }
+
+/* FOTO'S */
+/* foto amsterdam */
 @media screen and (min-width: 1280px)
 {
 	#fotoamsterdam
@@ -180,18 +183,70 @@ p
 	}
 }
 
-#fototank
+/* foto tank */
+@media screen and (min-width: 1280px)
 {
-	margin-top: 0,5em;
-	float: left;
-	width: 50%
+	#fototank
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fototank
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fototank
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
 }
 
-#fotomadurodam
+/* foto madurodam */
+@media screen and (min-width: 1280px)
 {
-	margin-top: 1,5%;
-	float: left;
-	width: 33%
+	#fotomadurodam
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotomadurodam
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotomadurodam
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
 }
 
 #fotovolendam
@@ -269,7 +324,7 @@ p
 	font-family: 'Montserrat', arial, verdana, sans-serif;
 }
 
-#submit, #selectie, #message
+#submit, #selectie
 {
 	font-family: 'Montserrat', arial, verdana, sans-serif;
 	color: #000000;
@@ -282,6 +337,13 @@ p
 	margin-left: 1%;
 }
 
+#message
+{
+	font-family: 'Montserrat', arial, verdana, sans-serif;
+	color: #000000;
+	width: 90%;
+}
+
 .invulvak
 {
 	font-family: 'Montserrat', arial, verdana, sans-serif;
@@ -291,6 +353,11 @@ footer
 {
 	color: #ffffff;
 	background-color: #000000;
+	clear: both;
+}
+
+#submit
+{
 	clear: both;
 }
 
@@ -315,13 +382,16 @@ footer
 
 #cookiestekst, #cookies
 {
+	text-align: center;
 	position: fixed;
 	clear: both;
+	float: left;
 	top: 95%;
 	bottom: 0%;
 	color: #ffffff;
 	background-color: #000000;
 	margin-bottom: 0%;
-	margin-left: 3%;
+	margin-left: 10%;
 	padding-bottom: 0%;	
+	z-index: 99999;
 }
