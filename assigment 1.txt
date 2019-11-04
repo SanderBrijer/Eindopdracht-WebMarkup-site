@@ -1,0 +1,5 @@
+Studentnaam:			Sander Brijer
+Studentnummer:			646235
+
+Bekijk de site:			http://taekwon.eu/646235/index.html
+Bekijk de forbidden folder:	http://taekwon.eu/646235/forbidden/secret.txt
