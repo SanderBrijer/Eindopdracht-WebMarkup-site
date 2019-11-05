@@ -59,16 +59,11 @@ ul.topnav li.right {float: right;}
 
 
 
-
-
-
-
-
-
-
 #logo
 {
+	padding-top: 0.5%;
 	float: left;
+	width: 2%;
 }
 
 .tekstnav
@@ -87,13 +82,6 @@ ul.topnav li.right {float: right;}
 	width: 100%;
 }
 
-#logo
-{
-	width: 30px;
-	float: left;
-	
-}
-
 #headerlogotekst
 {
 	font-family: 'Staatliches', arial, verdana, sans-serif;
@@ -102,8 +90,8 @@ ul.topnav li.right {float: right;}
 body
 {
 	font-family: 'Montserrat', arial, verdana, sans-serif;
-	background-color: 000;
-	color: #000;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 h1
@@ -125,9 +113,9 @@ h2
 p
 {
 	margin-top: 0%;
-	padding-top: 0,1%;
-	margin-bottom: 0,4%;
-	padding-bottom: 0,4%;
+	padding-top: 1%;
+	margin-bottom: 1%;
+	padding-bottom: 1%;
 }
 
 #maincontent
