@@ -50,7 +50,7 @@ ul.topnav li a.active {background-color: #707070;}
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 480px)
+@media screen and (max-width: 600px)
 {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
@@ -249,12 +249,340 @@ p
 	}
 }
 
-#fotovolendam
+/* foto volendam */
+@media screen and (min-width: 1280px)
 {
-	margin-top: 3,5%;
-	clear: both;
+	#fotovolendam
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotovolendam
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotovolendam
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto ajax */
+@media screen and (min-width: 1280px)
+{
+	#fotoajax
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotoajax
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotoajax
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto volleybal */
+@media screen and (min-width: 1280px)
+{
+	#fotovolleybal
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotovolleybal
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotovolleybal
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto zwemmen */
+@media screen and (min-width: 1280px)
+{
+	#fotozwemmen
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotozwemmen
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotozwemmen
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto paardrijden */
+@media screen and (min-width: 1280px)
+{
+	#fotopaardrijden
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 30%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotopaardrijden
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotopaardrijden
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto hockey */
+@media screen and (min-width: 1280px)
+{
+	#fotohockey
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotohockey
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotohockey
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto turnen */
+@media screen and (min-width: 1280px)
+{
+	#fototurnen
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fototurnen
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fototurnen
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto golf */
+@media screen and (min-width: 1280px)
+{
+	#fotogolf
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotogolf
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotogolf
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto handboogschieten */
+@media screen and (min-width: 1280px)
+{
+	#fotohandboogschieten
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotohandboogschieten
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotohandboogschieten
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+/* foto atletiek */
+@media screen and (min-width: 1280px)
+{
+	#fotoatletiek
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotoatletiek
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotoatletiek
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
+
+.tekstsport
+{
+	clear:both;
 	float: left;
-	width: 33%
 }
 
 #bannercatalogus
@@ -298,13 +626,6 @@ p
 	margin-right: 3%;
 }
 
-#turnfoto
-{
-	width: 90px;
-	clear: both;
-	float: left;	
-}
-
 #referalcontent
 {
 	background-color: blue;
@@ -315,6 +636,38 @@ p
 	margin-right: 3%;
 }
 
+/* foto atletiek */
+@media screen and (min-width: 1280px)
+{
+	#fotovechtsporten
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 50%
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#fotovechtsporten
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		margin: auto;
+		width: 75%
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#fotovechtsporten
+	{
+		margin-top: 1,5%;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+}
 
 #contactcontent
 {
@@ -380,18 +733,59 @@ footer
 	padding-bottom: 0%;
 }
 
-#cookiestekst, #cookies
+@media screen and (min-width: 1280px)
 {
-	text-align: center;
-	position: fixed;
-	clear: both;
-	float: left;
-	top: 95%;
-	bottom: 0%;
-	color: #ffffff;
-	background-color: #000000;
-	margin-bottom: 0%;
-	margin-left: 10%;
-	padding-bottom: 0%;	
-	z-index: 99999;
+	#cookiestekst, #cookies
+	{
+		text-align: center;
+		position: fixed;
+		clear: both;
+		float: left;
+		top: 95%;
+		bottom: 0%;
+		color: #ffffff;
+		background-color: #000000;
+		margin-bottom: 0%;
+		margin-left: 10%;
+		padding-bottom: 0%;	
+		z-index: 99999;		
+	}
+}
+@media screen and (min-width: 481px && max-width: 1179px)
+{
+	#cookiestekst, #cookies
+	{
+		text-align: center;
+		position: fixed;
+		clear: both;
+		float: left;
+		top: 95%;
+		bottom: 0%;
+		color: #ffffff;
+		background-color: #000000;
+		margin-bottom: 0%;
+		margin-left: 10%;
+		padding-bottom: 0%;	
+		z-index: 99999;
+		font-size: 1,3em;
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#cookiestekst, #cookies
+	{
+		text-align: center;
+		position: fixed;
+		clear: both;
+		float: left;
+		top: 95%;
+		bottom: 0%;
+		color: #ffffff;
+		background-color: #000000;
+		margin-bottom: 0%;
+		margin-left: 10%;
+		padding-bottom: 0%;	
+		z-index: 99999;
+		font-size: 1,5em;
+	}
 }
