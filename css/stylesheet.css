@@ -66,7 +66,7 @@ ul.topnav li.right {float: right;}
 	width: 2%;
 }
 
-.tekstnav
+.tekstnav,p
 {
 	font-family: 'Montserrat', arial, verdana, sans-serif;
 	color: #000;
@@ -87,6 +87,20 @@ ul.topnav li.right {float: right;}
 	font-family: 'Staatliches', arial, verdana, sans-serif;
 }
 
+#titel, #h1nl
+{
+	margin-left: 3%;
+	color: #000000;
+}
+
+#subtitel
+{
+	margin-left: 3%;
+	margin-bottom: 3%;
+	color: #000000;
+}
+
+
 body
 {
 	font-family: 'Montserrat', arial, verdana, sans-serif;
@@ -99,7 +113,7 @@ h1
 	font-family: 'Staatliches', arial, verdana, sans-serif;
 	font-size: 1,5em;
 	margin: 0%;
-	color: #000;
+	color: #000000;
 }
 
 h2
@@ -107,7 +121,7 @@ h2
 	font-family: 'Staatliches', arial, verdana, sans-serif;
 	font-size: 1,5em;
 	margin: 0%;
-	color: #000;
+	color: #000000;
 }
 
 p
@@ -121,9 +135,8 @@ p
 #maincontent
 {
 	width: 75%;
-	background-color: #F0F;
-	padding-left: 1%;
-	padding-right: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
 	float: left;
 }
 
@@ -587,16 +600,8 @@ p
 	padding: 0 4px;
 }
 
-#maincontent
-{
-	background-color: #FF8;
-	float: left;
-	width: 65%;
-}
-
 #secondarycontent
 {
-	background-color: #F0F;
 	clear: both;
 	float: right;
 	width: 94%;
@@ -606,7 +611,6 @@ p
 
 #sportcontent
 {
-	background-color: gray;
 	clear: both;
 	float: right;
 	width: 94%;
@@ -616,7 +620,6 @@ p
 
 #referalcontent
 {
-	background-color: blue;
 	clear: both;
 	float: right;
 	width: 94%;
@@ -663,6 +666,7 @@ p
 	float: left;
 	width: 30%;
 	font-family: 'Montserrat', arial, verdana, sans-serif;
+	margin-left: 3%;
 }
 
 #submit, #selectie
