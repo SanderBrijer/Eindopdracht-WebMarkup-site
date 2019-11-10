@@ -71,7 +71,7 @@ ul.topnav li.right {float: right;}
 	{
 		padding-top: 0.5%;
 		float: left;
-		width: 2%;
+		width: 5%;
 	}
 }
 @media screen and (max-width: 480px)
@@ -80,7 +80,7 @@ ul.topnav li.right {float: right;}
 	{
 		padding-top: 0.5%;
 		float: left;
-		width: 2%;
+		width: 10%;
 	}
 }
 
@@ -683,7 +683,6 @@ p
 	margin-right: 3%;
 }
 
-/* foto atletiek */
 @media screen and (min-width: 1280px)
 {
 	#fotovechtsporten
@@ -905,20 +904,8 @@ footer
     }
 }
   
-@media (max-width: 480px) {
-	.container
-	{
-        color: #000000;
-    }
-    .container a
-	{
-        color: #2699fb;
-    }
-    .Nav a
-	{
-        color: #ffffff;
-    }
-     
+@media (max-width: 480px)
+{
     .videoamsterdam_video
 	{
 		display: none;
