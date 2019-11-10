@@ -130,14 +130,16 @@ body
 
 h1
 {
+	padding-top: 3%;
 	font-family: 'Staatliches', arial, verdana, sans-serif;
-	font-size: 1,5em;
+	font-size: 3em;
 	margin: 0%;
 	color: #000000;
 }
 
 h2
 {
+	padding-top: 1%;
 	font-family: 'Staatliches', arial, verdana, sans-serif;
 	font-size: 1,5em;
 	margin: 0%;
@@ -611,7 +613,7 @@ p
 
 @media screen and (min-width: 1280px)
 {
-	.tekstsporth1
+	.tekstsporth2
 	{
 		clear:both;
 		float: left;
@@ -619,20 +621,20 @@ p
 }
 @media screen and (min-width: 481px) and (max-width: 1179px)
 {
-	.tekstsporth1
+	.tekstsporth2
 	{
-		font-size: 1em;
+		font-size: 3em;
 		clear:both;
 		float: left;
 	}
 }
 @media screen and (max-width: 480px)
 {
-	.tekstsporth1
+	.tekstsporth2
 	{
-		font-size: 5,0em;
 		clear:both;
 		float: left;
+		font-size: 3em;
 	}
 }
 
@@ -715,12 +717,50 @@ p
 	}
 }
 
-#contactcontent
+/* CONTACT BEGIN */
+@media screen and (min-width: 1280px)
 {
-	clear: both;
-	float: left;
+	#contactcontent
+	{
+		clear: both;
+		float: left;
+		width: 30%;
+		font-family: 'Montserrat', arial, verdana, sans-serif;
+		margin-left: 3%;
+	}
+}
+@media screen and (max-width: 481px) and (max-width: 1179px)
+{
+	#contactcontent
+	{
+		clear: both;
+		float: left;
+		width: 30%;
+		font-family: 'Montserrat', arial, verdana, sans-serif;
+		margin-left: 3%;
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 480px)
+{
+	#contactcontent
+	{
+		clear: both;
+		float: left;
+		width: 30%;
+		font-family: 'Montserrat', arial, verdana, sans-serif;
+		margin-left: 3%;
+		font-size: 4em;
+	}
+}
+
+/* CONTACT EINDE */
+
+#contacttekstp
+{
+	color: #000000;
 	width: 30%;
-	font-family: 'Montserrat', arial, verdana, sans-serif;
+	font-family: 'Staatliches', arial, verdana, sans-serif;
 	margin-left: 3%;
 }
 
@@ -728,14 +768,14 @@ p
 {
 	color: #000000;
 	width: 30%;
-	font-family: 'Montserrat', arial, verdana, sans-serif;
+	font-family: 'Monserrat', arial, verdana, sans-serif;
 	margin-left: 3%;
-	
 }
 
 #submit, #selectie
 {
 	font-family: 'Montserrat', arial, verdana, sans-serif;
+	clear: both;
 }
 
 #opgeven
