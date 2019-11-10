@@ -1,0 +1,8 @@
+Studentnaam:			Sander Brijer
+Studentnummer:			646235
+Github site:			https://github.com/SanderBrijer/Eindopdracht-WebMarkup-site
+
+Bekijk de site:			http://taekwon.eu/646235/index.html
+Bekijk de forbidden folder:	http://taekwon.eu/646235/forbidden/secret.txt
+Github:				https://github.com/SanderBrijer
+Github site:			https://github.com/SanderBrijer/Eindopdracht-WebMarkup-site
