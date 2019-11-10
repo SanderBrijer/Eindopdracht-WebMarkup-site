@@ -1,6 +1,6 @@
 Studentnaam:			Sander Brijer
 Studentnummer:			646235
-Klas				INF1B September
+Klas:				INF1B September
 Github site:			https://github.com/SanderBrijer/Eindopdracht-WebMarkup-site
 
 Bekijk de site:			http://taekwon.eu/646235/index.html
